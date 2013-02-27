@@ -90,9 +90,7 @@ img.polaroid {
 /* 2. HEADER                                       */
 /* =============================================== */
 
-#hd{border-top: 4px solid #780000;}
-
-#hd h1{float: left;}
+#hd{}
 
 #hd h1 a{
 font-size: 182%;
@@ -100,16 +98,14 @@ font-weight: bold;
 text-transform: uppercase;
 text-decoration: none;
 display: block;
-margin: 20px 0 10px 0;
+margin: 0 0 10px 0;
 color: #464337;
 }
 
 #hd h1 a:hover{text-decoration: underline;}
 
 #hd h2{
-float: right;
 font-size: 138.5%;
-margin-top: 25px;
 }
 
 #hd h2#newmail{
@@ -125,9 +121,9 @@ background-position: left center;
 /* Navbar */
 
 #NavBar{
-background: #aba8a3 url(/assets/bg_navbar.gif) repeat-x 0 0;
-border-top: 1px solid #d9d6d3;
 clear: both;
+background: whitesmoke;
+padding:20px;
 }
 
 #NavBar ul, #NavBar ul li{float: left;}
@@ -138,14 +134,12 @@ font-size: 108%;
 padding: 15px 10px;
 text-transform: uppercase;
 font-weight: bold;
-border-right: 1px solid #fff;
-color: #464337;
 text-decoration: none;
 }
 
 #NavBar ul li#active a, #NavBar ul li.current a{
-background: #fff;
 text-decoration: none !important;
+color: inherit;
 }
 
 #NavBar ul li a:hover{text-decoration: underline;}
@@ -163,16 +157,18 @@ border: none;
 }
 
 
+#bd {
+	padding: 0 20px;
+}
 /* =============================================== */
 /* 3. WELCOME                                      */
 /* =============================================== */
 
 #welcome .box{
-background: #fff1b2;
 margin-top: 1em;
 padding: 1em;
-border-bottom: 2px solid #ffd735;
-border-top: 1px solid #ffd735;
+border-bottom: 2px solid #f2f0f0;
+border-top: 1px solid #f2f0f0;
 }
 
 #welcome .box h2{
@@ -230,13 +226,11 @@ font-size: 153.9%;
 font-size: 123.1%;
 font-weight: bold;
 text-transform: uppercase;
-border-bottom: 1px solid #ffd735;
+border-bottom: 1px solid #f2f0f0;
 margin:1.5em 0 1em 0;
 }
 
 .alt{
-border: 1px solid #94beff;
-background: #e1ecff;
 padding: 1em;
 }
 
@@ -244,7 +238,6 @@ padding: 1em;
 border: none;
 margin: 0 0 .5em 0;
 padding: .5em;
-background: #94beff;
 color: #38465b;
 }
 
@@ -423,15 +416,15 @@ border-bottom: 1px dotted #a2a19b;
 }
 
 .checks li, .page li{
-padding-left: 20px;
 background-color: transparent;
-background-image: url(/assets/icons/accept.png);
+}
+
+.page li{
+padding-left: 20px;
+background-image:url(/assets/icons/page_white.png);
 background-repeat: no-repeat;
 background-position: left center;
 }
-
-.checks li{background-image: url(/assets/icons/accept.png)}
-.page li{background-image:url(/assets/icons/page_white.png)}
 
 /* user list */
 dl.vcard{
@@ -480,9 +473,7 @@ h6.all a{
 font-size: 85%;
 font-weight: bold;
 text-transform: uppercase;
-background: transparent url(/assets/icons/add.png) no-repeat left center;
-padding:3px 0 3px 20px;
-color: #379d00;
+padding:3px 0;
 }
 
 
@@ -597,6 +588,7 @@ color: #6b5e2b;
 /* =============================================== */
 #ft{
 background: #f1f1f1;
+padding: 0 20px;
 padding-bottom: 1em;
 border-top: 1px solid #ccc;
 }
@@ -651,6 +643,7 @@ margin-left:  12.3846em; /* about 200px - 3em*/
 
 #CommunityFooter{
 margin: 20px 0;
+padding: 0 20px;
 font-size: 85%;}
 
 #CommunityFooter ul, #CommunityFooter ul li{float: left;}
@@ -676,8 +669,7 @@ padding-left: 0;
 
 #CommunityFooter p{
 float: right;
-padding: 2px 0 2px 120px;
-background: url(/assets/logo.gif) no-repeat left center;
+padding: 2px 0;
 }
 
 /* =============================================== */

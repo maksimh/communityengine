@@ -34,6 +34,7 @@ Gem::Specification.new do |s|
   s.add_dependency(%q<htmlentities>, [">= 0"])
   s.add_dependency(%q<haml>, [">= 0"])
   s.add_dependency(%q<sass-rails>, ["~> 3.2.3"])
+  s.add_dependency(%q<compass-rails>, [">= 0"])
   s.add_dependency(%q<ri_cal>, [">= 0"])
   s.add_dependency(%q<rakismet>, [">= 0"])
   s.add_dependency(%q<aws-s3>, [">= 0"])

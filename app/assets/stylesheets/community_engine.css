@@ -1,6 +1,7 @@
 /*
- *= require reset-fonts-grids
- *= require screen
+ *= require pretty-theme/screen
+ *= require pretty-theme/old/reset-fonts-grids
+ *= require pretty-theme/old/screen
  *= require lightbox
  *= require prototip 
 */
