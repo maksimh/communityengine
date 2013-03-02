@@ -2,28 +2,55 @@
 @import 'normalize';
 
 // Common CSS3 mixins provided by Compass gem
-@import "compass/css3";
+@import 'compass/css3';
+
+// Variables
+@import 'variables';
 
 html, body {
 	background: #f2f0f0;
-	color: #000;
+	color: $black;
+}
+.top-bar {
+	position: absolute;
+	right: 50%;
+	margin-right: - $pageWidth/2;
+	padding: 5px 20px 10px;
+	@include border-bottom-radius(5px);
+	background: $white;
 }
 .page-wrapper {padding:30px 0;}
 .page-content {
 	margin: 0 auto;
-	width: 980px !important;
+	width: $pageWidth !important;
 	background: #fff;
 	@include single-box-shadow(rgba(0,0,0,0.2),0,1px,6px);
 }
 .page-header {
-	margin: 0 auto;
-	padding: 20px;
-	width: 960px;
+	$pageHeaderPaddingLeft: 20px;
+	$pageHeaderPaddingRight: 20px;
+	margin: 0 auto 10px;
+	padding: 20px $pageHeaderPaddingRight 20px $pageHeaderPaddingLeft;
+	width: $pageWidth - $pageHeaderPaddingRight - $pageHeaderPaddingLeft;
 	display:table;
 	text-align: left;
-	h1, h2 {
-		display:table-cell;
-		vertical-align:middle;
+}
+.site-brand, .site-nav {
+	display: table-cell;
+	vertical-align: middle;
+}
+.site-nav {
+	text-align: right;
+	li {
+		display: inline-block;
+		vertical-align: top;
+		margin-left:20px;
 	}
-	h2 {text-align:right;}
+	a {
+		font-size: 15px;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }

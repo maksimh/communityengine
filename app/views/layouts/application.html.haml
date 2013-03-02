@@ -19,6 +19,8 @@
     -unless configatron.auth_providers.facebook.key.blank?    
       =render :partial => 'facebook/fb_require'    
       
+    .top-bar
+      = render :partial => "shared/top_bar"
     .page-wrapper
       #hd.page-header
         = render :partial => "shared/page-header"

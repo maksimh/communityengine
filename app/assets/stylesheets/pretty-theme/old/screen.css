@@ -92,17 +92,16 @@ img.polaroid {
 
 #hd{}
 
-#hd h1 a{
-font-size: 182%;
-font-weight: bold;
-text-transform: uppercase;
-text-decoration: none;
-display: block;
-margin: 0 0 10px 0;
-color: #464337;
+#hd h1{
+	display:inline-block;
 }
 
-#hd h1 a:hover{text-decoration: underline;}
+#hd h1 a{
+font-size: 182%;
+text-decoration: none;
+margin: 0;
+color: #464337;
+}
 
 #hd h2{
 font-size: 138.5%;
@@ -935,10 +934,11 @@ table.poll {
   right: 0;
   top: -9999px;
 	*width:150px;
-	border: 2px solid #2a1301; 
+	border: 1px solid #f2f0f0;
 	border-top: none;	
   padding: 10px;
   z-index: 999;  
+	margin-top: -7px;
 }
 #user-menu {
 	padding-right: 15px;
