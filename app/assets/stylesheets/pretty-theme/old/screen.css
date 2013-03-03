@@ -120,9 +120,6 @@ background-position: left center;
 /* Navbar */
 
 #NavBar{
-clear: both;
-background: whitesmoke;
-padding:20px;
 }
 
 #NavBar ul, #NavBar ul li{float: left;}
@@ -143,14 +140,12 @@ color: inherit;
 
 #NavBar ul li a:hover{text-decoration: underline;}
 
-#NavBar form{float: right;}
-
 #NavBar form label{display: none;}
 
 #NavBar form input{
 font-size: 108%;
 padding: 4px 15px 4px 5px;
-margin: 11px 10px 0 0;
+margin: 0 0 0 15px;
 background: #fff url(/assets/search.gif) no-repeat right center;
 border: none;
 }

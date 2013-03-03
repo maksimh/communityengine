@@ -35,12 +35,16 @@ html, body {
 	display:table;
 	text-align: left;
 }
-.site-brand, .site-nav {
+.site-brand, .site-nav, .site-search {
 	display: table-cell;
 	vertical-align: middle;
 }
+.site-brand {
+	text-align:left;
+	white-space:nowrap;
+}
 .site-nav {
-	text-align: right;
+	text-align: left;
 	li {
 		display: inline-block;
 		vertical-align: top;
@@ -53,4 +57,12 @@ html, body {
 			text-decoration: underline;
 		}
 	}
+}
+.site-search {
+	text-align: right;
+}
+.page-nav {
+	background-color: whitesmoke;
+	min-height:20px;
+	padding: 20px;
 }
