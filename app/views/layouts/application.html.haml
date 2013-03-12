@@ -25,8 +25,7 @@
       #hd.page-header
         = render :partial => "shared/page-header"
       .page-content{:class => "yui-t#{@sidebar_left ? 3 : 6}"}
-        = render :partial => "shared/navbar"
-              
+        .page-nav= yield :page_navbar
         #bd
           = render :partial => "shared/messages"
                     

@@ -1,7 +1,8 @@
-- @meta = { :description => configatron.meta_description, :keywords => configatron.meta_keywords, :robots => configatron.robots_meta_list_content }
+- content_for :page_navbar do
+  -unless logged_in?
+    =render :partial => 'base/homepage_banner_message'
 
--unless logged_in?
-  =render :partial => 'base/homepage_banner_message'
+- @meta = { :description => configatron.meta_description, :keywords => configatron.meta_keywords, :robots => configatron.robots_meta_list_content }
 
 #yui-main
   .yui-b

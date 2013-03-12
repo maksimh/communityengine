@@ -161,8 +161,6 @@ border: none;
 #welcome .box{
 margin-top: 1em;
 padding: 1em;
-border-bottom: 2px solid #f2f0f0;
-border-top: 1px solid #f2f0f0;
 }
 
 #welcome .box h2{
