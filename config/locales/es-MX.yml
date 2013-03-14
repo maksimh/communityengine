@@ -154,7 +154,7 @@ es-MX:
   title_required: Título (requerido)
   searching_for: Buscando
   save_post_as: "Guardar publicación como:"
-  homepage_banner_signup_prompt: Ver como funciona
+  homepage_banner_signup_prompt: Ver como funciona.
   forum: Foro
   estimated_writers_costs_this_month: Costos estimados de escritores este mes
   upload_and_continue_to_step_two: Subir, y continuar al paso dos
@@ -356,7 +356,6 @@ es-MX:
   featured_writer: Escritor Destacado
   see_all: VER TODO
   reply_to_topic: Responder
-  homepage_banner_download_msg: Descargalo ahora e inicia
   photo_comments: Comentarios de Foto
   end_required: fin (requerido)
   accepted_friendships: Amistades Aceptadas

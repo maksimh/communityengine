@@ -621,12 +621,10 @@ en:
   help: Help
   #en: home: Home
   home: Home
-  #en: homepage_banner_download_msg: Download it now and get started
-  homepage_banner_download_msg: Download it now and get started
   #en: homepage_banner_msg: CommunityEngine is the best way to go from zero to hero in no time
   homepage_banner_msg: CommunityEngine is the best way to go from zero to hero in no time
-  #en: homepage_banner_signup_prompt: See how it works
-  homepage_banner_signup_prompt: See how it works
+  #en: homepage_banner_signup_prompt: See how it works.
+  homepage_banner_signup_prompt: See how it works.
   #en: homepage_features: Homepage Features
   homepage_features: Homepage Features
   #en: homepage_feature_created: Homepage feature created

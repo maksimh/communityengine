@@ -1,0 +1,27 @@
+.button {
+	background: linear-gradient(#fff, #f6f6f6);
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 138.5%;
+	text-decoration: none;
+	color: #858585;
+	font-weight: bold;
+	text-align:center;
+	min-width: 160px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	@include border-radius(5px);
+	&:hover {
+		background: linear-gradient(#fff, lighten(#f6f6f6,2%));
+	}
+	&.blue {
+	background: linear-gradient(#69bbf9, #45a9f6);
+	border-color: #379be9;
+	color: #fff;
+		&:hover {
+			background: linear-gradient(lighten(#69bbf9,2%), lighten(#45a9f6,2%));
+			border-color: lighten(#379be9,2%);
+		}
+	}
+}
+

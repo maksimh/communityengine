@@ -298,12 +298,10 @@ es-AR:
   help: Ayuda
   #en: home: Home
   home: Inicio
-  #en: homepage_banner_download_msg: Download it now and get started
-  homepage_banner_download_msg: Descargar ahora y empezar
   #en: homepage_banner_msg: CommunityEngine is the best way to go from zero to hero in no time
   homepage_banner_msg: "CommunityEngine es la mejor manera de ir de cero a h\xC3\xA9roe rapid\xC3\xADsimo"
-  #en: homepage_banner_signup_prompt: See how it works
-  homepage_banner_signup_prompt: "Ver c\xC3\xB3mo funciona"
+  #en: homepage_banner_signup_prompt: See how it works.
+  homepage_banner_signup_prompt: "Ver c\xC3\xB3mo funciona."
   #en: homepage_feature_was_successfully_created: Homepage Feature was successfully created.
   homepage_feature_was_successfully_created: "La caracter\xC3\xADstica del homepage fue creada con \xC3\xA9xito."
   #en: html: Html

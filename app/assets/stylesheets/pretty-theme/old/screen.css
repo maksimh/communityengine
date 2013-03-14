@@ -158,47 +158,19 @@ border: none;
 /* 3. WELCOME                                      */
 /* =============================================== */
 
-#welcome .box{
+.base-welcome .box{
 margin-top: 1em;
 padding: 1em;
+text-align:center;
 }
 
-#welcome .box h2{
+.base-welcome .box h2{
 font-size: 197%;
 margin-bottom:.5em;
 }
 
-#welcome .box h2 a{color: #464337;}
-
-#welcome .box p{
+.base-welcome .box p{
 font-size: 108%;}
-
-#welcome .box h4{
-background:url(/assets/bg_h6btn.gif) repeat-x left center;
-}
-
-#welcome .box h4 a{
-background-color: transparent;
-background-image: url(/assets/icons/52.png);
-background-repeat: no-repeat;
-background-position: .5em center;
-display: block;
-padding: 1em 1em 1em 3.5em;
-font-size: 138.5%;
-text-decoration: none;
-text-transform: uppercase;
-color: #384016;
-font-weight: bold;
-border: 1px solid #9ec500;
-}
-
-#welcome .first .box h4 a{
-background-image: url(/assets/icons/31.png);
-}
-
-#welcome .box h4 a:hover{
-background-color: #9ec500;
-}
 
 /* =============================================== */
 /* 4. BOX and ALTBOX                               */
